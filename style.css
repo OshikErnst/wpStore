@@ -1,0 +1,155 @@
+/*
+Theme Name: wpStore
+Theme URI: http://www.wpfeed.com
+Description: An E-commerce theme for wordpress designed to work with WP E-commerce plugin. brought to you by <a href=http://www.wpfeed.com>WPfeed.com</a>
+Version: 1.0
+Author: Oshik Ernst
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* general */
+body{background:#F0F0F0 url(img/background1.gif) repeat; font-family:Arial;font-size:12px;}
+.post p {line-height:18px;margin-bottom:15px;}
+
+#wrapper{width:1000px; margin: 0 auto;border-right:#CCCCCC 1px solid;border-left:#CCCCCC 1px solid;border-bottom:#CCCCCC 1px solid;margin-bottom:10px;background:#F0F0F0}
+
+
+/* header */
+#header{width:1000px; margin: 0 auto;height:350px;background:url(img/bg_header.jpg) repeat-x;}
+
+#header_top{height:62px;}
+#logo {float:left;margin-left:40px;margin-top:14px;width:250px;}
+#logo h1 a {background:transparent url(img/logo.gif) no-repeat scroll left top;float:left;height:32px;width:136px;}
+#logo h1 span {display:none;}
+
+#nav{float:right;margin-right:30px;margin-top:30px;list-style-type:none;background:#fff;padding-top:3px;padding-bottom:3px;}
+
+
+#nav ul, #nav li {display: inline;}
+#nav li {display: inline;float:left;}
+#nav, #nav a {background: #fff}
+#nav a {	border-right: 1px dotted #526D76;	color: #526D76;	float: left;	font: bold 12px Arial,sans-serif;	margin-right: 1px;	padding: 5px 6px;	text-align: center;	text-decoration: none;}
+#nav a:hover{text-decoration: underline;}
+#nav li:first-child a {border-left: none;}
+
+#nav li ul a{color:#000;}
+
+
+#header_middle{height:240px;}
+#latestbox{height:240px;clear:both;}
+
+#latestproducts{width:624px;padding-left:40px;margin-top:22px;float:left;padding-bottom:10px;}
+.title{margin-bottom:12px;}
+#latestproducts ul{clear:both;margin-top:10px;}
+.latest_product{list-style-type:none;font: bold 12px Arial,sans-serif;color:#fff;float:left; width:120px;padding-right:25px;}
+
+.latest_product img{border:#333333 1px solid;float:left;}
+.latest_product a{text-decoration:none;font: bold 12px Arial,sans-serif;color:#fff;}
+.product_info{clear:both;margin-top:2px;padding-left:3px;}
+input.wpsc_buy_button {cursor:pointer;width:70px;border:none; background:none;font: bold 12px Arial,sans-serif;color:red;}
+
+
+#storedesc{width:255px;float:right;margin-top:15px;padding-left:40px;padding-right:30px;padding-bottom:10px;border-left:#7B9FAB 1px dotted;height:202px;}
+.box{background:#84979D none repeat scroll 0 0;border:1px solid #42555b;height:202px;padding:3px 4px 4px 8px;width:240px;color:#fff;}
+
+
+#header_bottom{height:47px;clear:both;}
+#categories{float:left;margin-left:35px;margin-top:12px;width:504px;}
+#categories li{display: inline;float:left;}
+#categories a {	color: #fff;	float: left;	font: bold 14px Arial,sans-serif;	margin-right: 1px;	padding: 5px 6px;	text-align: center;	text-decoration: none;border:#252422 1px solid;}
+#categories a:hover {	color: #fff;background:#526D76; border:#7B9FAB 1px dotted;	}
+
+
+#search form{float:right; width:250px;margin-right:30px;margin-top:12px;}
+#search fieldset{border:none;background:url(img/search.gif) no-repeat;width:243px;height:25px;}
+#search .text{border:none;background:#E9E9E9;position:relative;top:2px;left:2px;width:210px;}
+#search .button-search{border:none;width:28px;text-indent: -1000em;cursor:pointer;background:transparent;}
+
+
+
+
+
+
+/* content */
+#content{width:624px;padding-left:40px;margin-top:22px;float:left;padding-bottom:10px;}
+.textcol form{float:left;}
+
+.title{margin-bottom:12px;margin-top:30px;}
+#more_products ul{clear:both;margin-top:10px;}
+.more_products{list-style-type:none;font: bold 12px Arial,sans-serif;color:#252422;float:left; width:120px;padding-right:25px;margin-bottom:10px;}
+
+/* homepage */
+
+
+.title{margin-bottom:12px;}
+#homepage_products ul{clear:both;margin-top:10px;}
+.homepage_product{list-style-type:none;font: bold 12px Arial,sans-serif;color:#252422;float:left; width:120px;padding-right:25px;margin-bottom:10px;}
+
+.homepage_product img{border:#333333 1px solid;float:left;}
+.homepage_product a{text-decoration:none;font: bold 12px Arial,sans-serif;color:#252422;}
+.product_info{clear:both;margin-top:2px;padding-left:3px;}
+
+
+
+/* sidebar */
+#sidebar{border-left:1px dotted #526D76;float:right;margin-top:22px;margin-bottom:22px;padding-bottom:10px;padding-left:35px;padding-right:30px;
+width:260px;}
+
+#sidebar h2{color:#666666;font: bold 14px Arial,sans-serif;padding-left: 20px;margin-left:5px;}
+
+.sidebar_sep{border-top:#CCCCCC 1px dotted;height:15px;}
+
+#sidebar .brands{background:url(img/brand.gif) no-repeat left;}
+#sidebar .topproducts{background:url(img/top.gif) no-repeat left;}
+
+.widget {list-style-type:none;color:#666666;font-family:Arial,sans-serif;font-size:14px;font-size-adjust:none;
+font-stretch:normal;font-style:normal;font-variant:normal;font-weight:bold;line-height:normal;margin-left:5px;padding-left:5px;margin-bottom:15px;}
+.widget ul {list-style-type:none;margin-left:15px;}
+.widget ul li a{font-size:12px;color:#000;padding-left:1px;margin-left:1px;font-weight:normal;}
+
+
+#basket{margin-bottom:15px;}
+.cart_title{color:#666666;font: bold 14px Arial,sans-serif;padding-left: 20px;background:url(img/basket.gif) no-repeat left;}
+.visitshop a{color:#526D76;font: bold 12px Arial,sans-serif;padding-left: 20px;background:url(img/arrow.gif) no-repeat left;}
+
+.emptycart a{color:#526D76;font: bold 12px Arial,sans-serif;padding-left: 20px;background:url(img/arrow.gif) no-repeat left;}
+.gocheckout a{color:#526D76;font: bold 12px Arial,sans-serif;padding-left: 20px;background:url(img/arrow.gif) no-repeat left;}
+
+.empty{color:#666666;}
+#sliding_cart{margin-top:15px;}
+.shoppingcart th{padding-right:10px;}
+.shoppingcart td{padding-right:10px;}
+.shoppingcart td a{color:#526D76;font: bold 12px Arial,sans-serif; }
+
+#brands{margin-bottom:15px;margin-left:27px;list-style-image:url(img/bt.gif);padding-top:8px;}
+
+#brands li a{color:#526D76;font: bold 12px Arial,sans-serif;text-decoration:none;}
+#brands li a:hover{text-decoration:underline;}
+
+#topproducts{margin-bottom:15px;margin-left:27px;list-style-image:url(img/bt.gif);padding-top:8px;}
+#topproducts li a{color:#526D76;font: bold 12px Arial,sans-serif;text-decoration:none;}
+#topproducts li a:hover{text-decoration:underline;}
+
+
+
+
+
+
+/* footer */
+#footer{clear:both;padding-left:40px; padding-right:20px; margin: 0 auto;height:40px;}
+.credit{width:940px;padding-top:10px;border-top:#526D76 1px dotted; margin: 0 auto;}
+.credit a{color:#591C32;font-weight:bolder;}
+
+
+
+
+/* wp e commerce */
+
+
+.storytitle{margin-bottom:10px;}
+.storytitle a{color:#252422;font: bold 14px Arial,sans-serif;text-decoration:none;}
+.product_image{border:#333333 1px solid;} !important;

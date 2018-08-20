@@ -1,0 +1,3 @@
+.MainCategory {list-style-type:none;}
+ul.PeCategories li {float:left;}
+ul.PeCategories li a{color:#fff;font: bold 13px Arial,sans-serif;}
